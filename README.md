@@ -19,6 +19,5 @@ This is a simple Spring Cloud API Gateway implementation built with Spring Boot.
 ### Clone the repository
 ```bash
 
-Copy code
-git clone https://github.com/yourusername/spring-cloud-gateway.git
+git clone https://github.com/Satyabirbhoi/SpringCloudAPIGateway.git
 cd spring-cloud-gateway
