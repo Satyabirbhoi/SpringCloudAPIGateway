@@ -27,7 +27,7 @@ The database configurations for storing the API keys and IPs can be done in the 
 
 ```
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.datasource.url=jdbc:mysql://localhost:3307/userdb
+spring.datasource.url=jdbc:mysql://localhost:3307/apikey_ip_db
 spring.datasource.username=root
 spring.datasource.password=Password@123
 spring.jpa.show-sql=true
