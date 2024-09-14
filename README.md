@@ -1,4 +1,4 @@
-# SpringCloudAPIGateway
+# Spring Cloud API Gateway
 This is a simple Spring Cloud API Gateway implementation built with Spring Boot. The API Gateway acts as a routing and filtering mechanism for microservices.
 
 ## Features
