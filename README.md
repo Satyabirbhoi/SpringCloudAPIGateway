@@ -20,4 +20,18 @@ This is a simple Spring Cloud API Gateway implementation built with Spring Boot.
 ```bash
 
 git clone https://github.com/Satyabirbhoi/SpringCloudAPIGateway.git
-cd spring-cloud-gateway
+cd SpringCloudAPIGateway
+
+```
+The database configurations for storing the API keys and IPs can be done in the src/main/resources/application.properties  file 
+
+```
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3307/userdb
+spring.datasource.username=root
+spring.datasource.password=Password@123
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
+``` 
